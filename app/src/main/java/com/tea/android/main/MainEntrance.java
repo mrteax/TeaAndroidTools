@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 
 import com.tea.android.utils.InputTypeActivity;
 import com.tea.android.utils.KeyboardHeightDetector;
+import com.tea.android.utils.NetworkActivity;
 import com.tea.android.utils.R;
 
 /**
@@ -69,6 +70,17 @@ public class MainEntrance extends AppCompatActivity {
                 return InputTypeActivity.class;
             }
         },
+        NETWORK_SAMPLE {
+            @Override
+            public String getTitle() {
+                return "network";
+            }
+
+            @Override
+            public Class<?> getJumpActivity() {
+                return NetworkActivity.class;
+            }
+        }
         ;
         public abstract String getTitle();
         public abstract Class<?> getJumpActivity();

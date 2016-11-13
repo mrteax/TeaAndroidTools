@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_retrofit_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="retrofit_get"
+        />
+    <Button
+        android:id="@+id/btn_retrofit_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="retrofit_post"
+        />
+    <Button
+        android:id="@+id/btn_okhttp_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okhttp_get"
+        />
+    <Button
+        android:id="@+id/btn_okhttp_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okhttp_get"
+        />
+    <Button
+        android:id="@+id/btn_volley_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="volley_get"
+        />
+    <Button
+        android:id="@+id/btn_volley_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="volley_post"
+        />
+    <Button
+        android:id="@+id/btn_httpurlconnection_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="httpurlconnection_get"
+        />
+    <Button
+        android:id="@+id/btn_httpurlconnection_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="httpurlconnection_post"
+        />
+
+
+</LinearLayout>
