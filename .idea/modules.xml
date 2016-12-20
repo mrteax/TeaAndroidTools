@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BrcTestTool.iml" filepath="$PROJECT_DIR$/BrcTestTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeaAndroidTools.iml" filepath="$PROJECT_DIR$/TeaAndroidTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

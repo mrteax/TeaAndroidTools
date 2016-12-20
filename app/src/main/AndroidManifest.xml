@@ -45,6 +45,16 @@
         <activity android:name="com.tea.android.utils.NetworkActivity"
                   android:label="NetworkActivity"
             />
+        <activity android:name="com.tea.android.main.ReferrerReceiverActivity"
+                  android:label="ReferrerReceiverActivity"
+            />
+
+        <receiver android:name=".ReferrerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>

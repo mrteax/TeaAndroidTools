@@ -80,7 +80,19 @@ public class MainEntrance extends AppCompatActivity {
             public Class<?> getJumpActivity() {
                 return NetworkActivity.class;
             }
-        }
+        },
+
+        REFERRER_RECEIVER {
+            @Override
+            public String getTitle() {
+                return "REFERRER_RECEIVER";
+            }
+
+            @Override
+            public Class<?> getJumpActivity() {
+                return ReferrerReceiverActivity.class;
+            }
+        },
         ;
         public abstract String getTitle();
         public abstract Class<?> getJumpActivity();
